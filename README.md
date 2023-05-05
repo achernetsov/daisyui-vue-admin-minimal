@@ -1,3 +1,7 @@
+# Used components
+- https://github.com/srobbin01/daisyui-admin-dashboard-template
+- https://github.com/tailwindlabs/heroicons
+
 # Creation
 - https://github.com/vuejs/create-vue
 - https://tailwindcss.com/docs/guides/vite#vue
