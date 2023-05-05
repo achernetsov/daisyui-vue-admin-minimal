@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import Hero from '@/components/Hero.vue'
 </script>
 
 <template>
   <main>
-    home view
+    <!-- <Hero/> -->
+    main
   </main>
 </template>
