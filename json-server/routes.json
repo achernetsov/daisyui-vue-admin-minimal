@@ -1,0 +1,12 @@
+{
+  "/api/bots": "/bots0",
+  "/api/bots/1": "/bots_1",
+  "/api/bots/2": "/bots_2",
+  "/api/stats/2/interactions/pages": "/bots_2_interactions_pages",
+  "/api/stats/2/interactions?page=0": "/bots_2_interactions_page0",
+  "/api/stats/2/interactions?page=1": "/bots_2_interactions_page0",
+  "/api/stats/2/interactions?page=2": "/bots_2_interactions_page0",
+  "/api/stats/2/interactions?page=3": "/bots_2_interactions_page0",
+  "/api/stats/2/interactions?page=4": "/bots_2_interactions_page0",
+  "/api/chat/2": "/bots_2_chat"
+}
