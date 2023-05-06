@@ -1,6 +1,7 @@
 # Features
 - daisyui components
 - dark / light theme switch using https://github.com/saadeghi/theme-change
+- form with tabs; tabs implemented using nested routes
 
 # Used components
 - https://github.com/srobbin01/daisyui-admin-dashboard-template
