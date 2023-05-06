@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { SunIcon } from '@heroicons/vue/24/solid'
-import { MoonIcon } from '@heroicons/vue/24/solid'
 import { ArrowRightCircleIcon } from '@heroicons/vue/24/solid'
 import { XMarkIcon } from '@heroicons/vue/24/solid'
 import LogoBtn from '@/components/logo/LogoBtn.vue'
+import ThemeToggle from '@/components/theme/ThemeToggle.vue'
 </script>
 
 <template>
@@ -23,7 +23,7 @@ import LogoBtn from '@/components/logo/LogoBtn.vue'
           <div class="flex-none">
             <ul class="menu menu-horizontal px-1">
               <li>
-                <MoonIcon class="flex-1 w-14" />
+                <ThemeToggle/>
               </li>
               <li>
                 <XMarkIcon class="flex-1 w-14"></XMarkIcon>
