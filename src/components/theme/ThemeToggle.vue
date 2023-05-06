@@ -24,11 +24,7 @@ function onThemeToggle(){
 
 <!-- https://github.com/saadeghi/theme-change -->
 <template>
-    
-    <!-- <button class="btn gap-2 btn-ghost" data-toggle-theme="dark,light" data-act-class="ACTIVECLASS"> -->
     <button @click="onThemeToggle()" class="btn gap-2 btn-ghost" data-toggle-theme="dark,light" data-act-class="ACTIVECLASS">
-        <!-- <MoonIcon @click="switchTheme()" class="flex-1 w-14" /> -->
-        <!-- <MoonIcon class="flex-1 w-14" /> -->
         <MoonIcon v-if="theme=='light'" class="flex-1 w-6" />
         <SunIcon v-if="theme=='dark'" class="flex-1 w-6" />
     </button>
