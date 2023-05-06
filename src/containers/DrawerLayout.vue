@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Navbar from '@/components/Navbar.vue';
 import Hero from '@/components/Hero.vue';
+import { RouterView } from 'vue-router'
 </script>
 
 <!-- https://daisyui.com/components/drawer/ -->
@@ -9,7 +10,7 @@ import Hero from '@/components/Hero.vue';
         <div class="drawer-content flex flex-col">
             <Navbar />
             <!-- Page content here -->
-            <Hero />
+            <RouterView />
         </div>
 
     </div>

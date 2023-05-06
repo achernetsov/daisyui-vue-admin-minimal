@@ -2,6 +2,7 @@
 import LogoBtn from '@/components/logo/LogoBtn.vue'
 import ThemeToggle from '@/components/theme/ThemeToggle.vue'
 import { XMarkIcon } from '@heroicons/vue/24/solid'
+import { RouterLink } from 'vue-router'
 </script>
 
  <!-- https://daisyui.com/components/navbar/ -->
@@ -9,7 +10,9 @@ import { XMarkIcon } from '@heroicons/vue/24/solid'
     <header>
         <div class="navbar bg-base-100">
             <div class="flex-1 gap-1">
-                <LogoBtn />
+                <RouterLink :to="{ name: 'home' }">
+                    <LogoBtn />
+                </RouterLink>
             </div>
             <div class="flex-none">
                 <ul class="menu menu-horizontal px-1">
