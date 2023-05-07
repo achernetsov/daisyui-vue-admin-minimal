@@ -5,11 +5,10 @@ import ItemForm from '@/components/ItemForm.vue'
 
 <template>
     <PageContentLayout>
-        <div class="card w-96 bg-base-100 shadow-xl">
-            <div class="card-body">
+        <div class="card bg-base-100 shadow-xl">
+            <div class="card-body space-y-2">
                 <h2 class="card-title">Confirm logout</h2>
-                <p>Are you sure?</p>
-                <div class="card-actions justify-end">
+                <div class="card-actions justify-center">
                     <button class="btn btn-primary">Logout</button>
                 </div>
             </div>
