@@ -3,6 +3,7 @@ import HelloView from '@/views/HelloView.vue'
 import ItemView from '@/views/ItemView.vue'
 import ItemInfo from '@/components/item/ItemInfo.vue'
 import ItemProps from '@/components/item/ItemProps.vue'
+import LogoutView from '@/views/LogoutView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +35,11 @@ const router = createRouter({
         },
       ],
     },
+    {
+      path: '/logout',
+      name: 'logout',
+      component: LogoutView
+    }
   ]
 })
 

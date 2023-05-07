@@ -20,7 +20,9 @@ import { RouterLink } from 'vue-router'
                         <ThemeToggle />
                     </li>
                     <li>
-                        <XMarkIcon class="flex-1 w-14"></XMarkIcon>
+                        <RouterLink class="flex-1 w-14" :to="{ name: 'logout' }">
+                            <XMarkIcon></XMarkIcon>
+                        </RouterLink>
                     </li>
                 </ul>
             </div>
