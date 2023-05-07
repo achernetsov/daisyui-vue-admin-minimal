@@ -6,7 +6,7 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   // fixes for gitabl pages: https://forum.gitlab.com/t/no-access-control-allow-origin-header-for-https-projects-gitlab-io-auth/54904
-  base: '/flowbite-vue-router-tabs',
+  base: '/daisyui-vue-admin-minimal',
   plugins: [vue()],
   resolve: {
     alias: {
