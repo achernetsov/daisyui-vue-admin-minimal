@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import PageContentLayout from '@/containers/PageContentLayout.vue'
-import ItemForm from '@/components/ItemForm.vue'
+import EditItemForm from '@/components/EditItemForm.vue'
 </script>
 <template>
     <PageContentLayout>
-        <ItemForm/>
+        <EditItemForm/>
     </PageContentLayout>
 </template>

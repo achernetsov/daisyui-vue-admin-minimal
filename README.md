@@ -1,5 +1,6 @@
 # Features
 - daisyui components
+- responsive layout
 - dark / light theme switch using https://github.com/saadeghi/theme-change
 - form with tabs; tabs implemented using nested routes
 
