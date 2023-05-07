@@ -1,21 +1,23 @@
+# Overview
+
+Minimalistic admin template on Vue and [Daisyui](https://daisyui.com)
+
+Live preview: https://archertech-lab.gitlab.io/daisyui-vue-admin-minimal
+
 # Features
-- Vue, Vite, Typescript, Vue-Router, Pinia
-- Daisyui components
+- Vue, Vite, Typescript, Vue-Router, Pinia store
+- [Daisyui](https://daisyui.com) components
 - Responsive layout
-- Dark / light theme switch using https://github.com/saadeghi/theme-change
+- Dark / light theme toggle with [theme-change](https://github.com/saadeghi/theme-change)
 - Form with tabs; tabs implemented using nested routes; state displayed within tabs located in Pinia store
+- [Hero icons](https://github.com/tailwindlabs/heroicons)
 
-# Used components
-- https://github.com/srobbin01/daisyui-admin-dashboard-template
-- https://github.com/tailwindlabs/heroicons
+# Initial setup
+1. https://github.com/vuejs/create-vue
+1. https://tailwindcss.com/docs/guides/vite#vue
+1. https://daisyui.com/docs/install/
 
-# Creation
-- https://github.com/vuejs/create-vue
-- https://tailwindcss.com/docs/guides/vite#vue
-
-# admin
-
-This template should help get you started developing with Vue 3 in Vite.
+# Original vite instructions
 
 ## Recommended IDE Setup
 
