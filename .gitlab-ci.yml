@@ -1,0 +1,16 @@
+# https://docs.gitlab.com/ee/user/project/pages/getting_started/pages_from_scratch.html
+image: node:16
+
+pages:
+  cache:
+    paths:
+    - node_modules/
+  script:
+    - npm i
+    - npm run build
+  artifacts:
+    paths:
+      - public
+    expire_in: 1 hour
+  only:
+  - master
