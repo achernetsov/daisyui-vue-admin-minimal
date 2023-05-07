@@ -13,7 +13,7 @@ import { RouterLink } from 'vue-router'
                     quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
 
                 <div id="button">
-                    <RouterLink :to="{ name: 'newItem' }">
+                    <RouterLink :to="{ name: 'newItemHome' }">
                         <button class="btn btn-primary">Create item</button>
                     </RouterLink>
                 </div>

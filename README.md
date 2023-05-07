@@ -1,8 +1,9 @@
 # Features
-- daisyui components
-- responsive layout
-- dark / light theme switch using https://github.com/saadeghi/theme-change
-- form with tabs; tabs implemented using nested routes
+- Vue, Vite, Typescript, Vue-Router, Pinia
+- Daisyui components
+- Responsive layout
+- Dark / light theme switch using https://github.com/saadeghi/theme-change
+- Form with tabs; tabs implemented using nested routes; state displayed within tabs located in Pinia store
 
 # Used components
 - https://github.com/srobbin01/daisyui-admin-dashboard-template
