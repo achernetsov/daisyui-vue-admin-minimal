@@ -6,7 +6,7 @@ import { RouterView } from 'vue-router'
 <!-- https://daisyui.com/components/drawer/ -->
 <template>
     <div class="drawer">
-        <div class="drawer-content flex flex-col">
+        <div class="drawer-content flex flex-col bg-base-200">
             <Navbar />
             <!-- Page content here -->
             <RouterView />
