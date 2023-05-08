@@ -12,13 +12,18 @@ export interface Item {
   props: Property[]
 }
 
+function initProps(n: number): Property[] {
+  let props = [] as Property[]
+  for (let i = 0; i < n; i++) {
+    props.push({ name: `Prop ${i}`, value: i.toString(), comment: `Comment ${i}` })
+  }
+  return props
+}
+
 export const useItemStore = defineStore('item', () => {
   const item = ref<Item>({
     name: '',
-    props: [
-      { name: 'amount', value: '10', comment: 'Too much' },
-      { name: 'quality', value: 'epic', comment: 'Amazing' }
-    ]
+    props: initProps(20)
   })
 
   return { item }

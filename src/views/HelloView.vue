@@ -4,11 +4,12 @@ import { RouterLink } from 'vue-router'
 
 <!-- https://daisyui.com/components/hero/ -->
 <template>
-    <div class="hero h-4/5">
-        <div class="hero-content text-center">
-            <div class="max-w-md">
+    <div class="hero h-[75vh]">
+        <div class="hero-content  text-center">
+            <div class="max-w-md ">
                 <h1 class="text-5xl font-bold">Hello there</h1>
-                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                    exercitationem
                     quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
 
                 <div id="button">
