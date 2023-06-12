@@ -4,6 +4,8 @@ Minimalistic admin template on Vue and [Daisyui](https://daisyui.com)
 
 Live preview: https://archertech-lab.gitlab.io/daisyui-vue-admin-minimal
 
+Real working admin based on this template: https://github.com/achernetsov/chipa-admin2
+
 # Features
 - Vue, Vite, Typescript, Vue-Router, Pinia store
 - [Daisyui](https://daisyui.com) components
